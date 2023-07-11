@@ -109,7 +109,7 @@ const Weather = () => {
                                             visible={true}
                                         />
                                     </div>
-
+    
                             }
 
                         </div>

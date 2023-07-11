@@ -13,11 +13,12 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className="w-10" />
                 <ul className="list-none w-full flex justify-center gap-6 text-white sm:font-bold font-semibold text-xl sm:text-2xl">
                     {
-                        navItems.map((item) => (
+                        navItems.map((item, idx) => (
                             <li onClick={(e) => {
                                 setIsActive(e.target.outerText)
                                 navigate(`/${e.target.outerText.toLowerCase()}`)
                             }}
+                                key={idx}
                                 className={`${isActive === item ? "text-[#f27735ea]" : ""} cursor-pointer transition-all duration-500`}>{item}
                             </li>
                         ))
