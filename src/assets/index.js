@@ -5,6 +5,8 @@ import heart from './heart.png'
 import searchImg from './searchImg.png'
 import up from './up.png'
 import down from './down.png'
+import articleImage from './articleImage.jpg'
+import news from './news.jpg'
 
 export {
     logo,
@@ -12,6 +14,8 @@ export {
     Tempreture,
     up,
     down,
+    news,
+    articleImage,
     searchImg,
     heart,
 }

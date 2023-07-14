@@ -1,8 +1,8 @@
 const navItems = ["Weather", "News", "Sports"];
 const countries = [
+    { "all": "All" },
     { "in": "India" },
     { "us": "USA" },
-    { "pk": "Pakistan" },
     { "ir": "Iran" },
     { "jp": "Japan" },
     { "il": "Israel" },

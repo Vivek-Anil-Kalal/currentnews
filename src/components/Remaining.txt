@@ -1,0 +1,3 @@
+- dont forget to setIsLoaded as !setIsLoaded
+- and change articleData with data
+- dont forget to add imageUrl in newsCard   

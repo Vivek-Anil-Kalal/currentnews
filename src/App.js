@@ -1,7 +1,6 @@
 import { Navbar, Landing } from './components';
 
 function App() {
-
   return (
       <div className="App">
         {/* Navbar */}
